@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+@MainActor
 protocol ViewModelType: ObservableObject {
     
     associatedtype Input
