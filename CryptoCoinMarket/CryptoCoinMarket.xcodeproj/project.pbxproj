@@ -14,8 +14,12 @@
 		7B88103F2BFCA4F500D82F0E /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88103E2BFCA4F500D82F0E /* APIUrl.swift */; };
 		7B8810422BFCA6EE00D82F0E /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8810412BFCA6EE00D82F0E /* Starscream */; };
 		7B8810452BFCA6FD00D82F0E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8810442BFCA6FD00D82F0E /* Alamofire */; };
+		7B88104A2BFCB14E00D82F0E /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810492BFCB14E00D82F0E /* TargetType.swift */; };
+		7B88104C2BFCB28500D82F0E /* UpbitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88104B2BFCB28500D82F0E /* UpbitRouter.swift */; };
+		7B88104E2BFCBB7E00D82F0E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88104D2BFCBB7E00D82F0E /* HTTPMethod.swift */; };
+		7B8810512BFCC00700D82F0E /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810502BFCC00700D82F0E /* LaunchViewModel.swift */; };
+		7B8810532BFCC0A800D82F0E /* MarketCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810522BFCC0A800D82F0E /* MarketCodeModel.swift */; };
 		7BFDE8E02BF4E39B00F46241 /* CryptoCoinMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDE8DF2BF4E39B00F46241 /* CryptoCoinMarketApp.swift */; };
-		7BFDE8E22BF4E39B00F46241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDE8E12BF4E39B00F46241 /* ContentView.swift */; };
 		7BFDE8E42BF4E39E00F46241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDE8E32BF4E39E00F46241 /* Assets.xcassets */; };
 		7BFDE8E72BF4E39E00F46241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDE8E62BF4E39E00F46241 /* Preview Assets.xcassets */; };
 		7BFDE8EE2BF4E3CF00F46241 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDE8ED2BF4E3CF00F46241 /* .gitignore */; };
@@ -27,9 +31,13 @@
 		7B8810382BFCA30000D82F0E /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		7B88103B2BFCA31400D82F0E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		7B88103E2BFCA4F500D82F0E /* APIUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrl.swift; sourceTree = "<group>"; };
+		7B8810492BFCB14E00D82F0E /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		7B88104B2BFCB28500D82F0E /* UpbitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitRouter.swift; sourceTree = "<group>"; };
+		7B88104D2BFCBB7E00D82F0E /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		7B8810502BFCC00700D82F0E /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		7B8810522BFCC0A800D82F0E /* MarketCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCodeModel.swift; sourceTree = "<group>"; };
 		7BFDE8DC2BF4E39B00F46241 /* CryptoCoinMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCoinMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFDE8DF2BF4E39B00F46241 /* CryptoCoinMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinMarketApp.swift; sourceTree = "<group>"; };
-		7BFDE8E12BF4E39B00F46241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BFDE8E32BF4E39E00F46241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BFDE8E62BF4E39E00F46241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BFDE8ED2BF4E3CF00F46241 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -60,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				7B8810342BFCA27E00D82F0E /* NetworkManager.swift */,
+				7B88104D2BFCBB7E00D82F0E /* HTTPMethod.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -97,6 +106,38 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		7B8810462BFCAFDC00D82F0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B8810522BFCC0A800D82F0E /* MarketCodeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B8810472BFCB10300D82F0E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7B8810492BFCB14E00D82F0E /* TargetType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7B8810482BFCB10A00D82F0E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7B88104B2BFCB28500D82F0E /* UpbitRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7B88104F2BFCBFBB00D82F0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B8810502BFCC00700D82F0E /* LaunchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		7BFDE8D32BF4E39B00F46241 = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +158,15 @@
 		7BFDE8DE2BF4E39B00F46241 /* CryptoCoinMarket */ = {
 			isa = PBXGroup;
 			children = (
+				7B8810482BFCB10A00D82F0E /* Router */,
+				7B8810472BFCB10300D82F0E /* Protocol */,
+				7B8810462BFCAFDC00D82F0E /* Model */,
+				7B88104F2BFCBFBB00D82F0E /* ViewModel */,
 				7B88103D2BFCA4DF00D82F0E /* API */,
 				7B8810312BFCA05B00D82F0E /* Network */,
 				7B8810302BFCA05400D82F0E /* Socket */,
 				7B8810362BFCA2A200D82F0E /* Screen */,
 				7BFDE8DF2BF4E39B00F46241 /* CryptoCoinMarketApp.swift */,
-				7BFDE8E12BF4E39B00F46241 /* ContentView.swift */,
 				7BFDE8E32BF4E39E00F46241 /* Assets.xcassets */,
 				7BFDE8E52BF4E39E00F46241 /* Preview Content */,
 			);
@@ -216,13 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BFDE8E22BF4E39B00F46241 /* ContentView.swift in Sources */,
 				7B8810352BFCA27E00D82F0E /* NetworkManager.swift in Sources */,
 				7B88103C2BFCA31400D82F0E /* HomeScreen.swift in Sources */,
 				7B8810392BFCA30000D82F0E /* LaunchScreen.swift in Sources */,
+				7B8810512BFCC00700D82F0E /* LaunchViewModel.swift in Sources */,
+				7B88104C2BFCB28500D82F0E /* UpbitRouter.swift in Sources */,
+				7B88104A2BFCB14E00D82F0E /* TargetType.swift in Sources */,
 				7B8810332BFCA10900D82F0E /* WebSocketManager.swift in Sources */,
 				7B88103F2BFCA4F500D82F0E /* APIUrl.swift in Sources */,
+				7B88104E2BFCBB7E00D82F0E /* HTTPMethod.swift in Sources */,
 				7BFDE8E02BF4E39B00F46241 /* CryptoCoinMarketApp.swift in Sources */,
+				7B8810532BFCC0A800D82F0E /* MarketCodeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,11 +406,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoCoinMarket/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "인생졸업";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,11 +436,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoCoinMarket/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "인생졸업";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
