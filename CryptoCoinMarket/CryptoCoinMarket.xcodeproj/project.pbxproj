@@ -12,8 +12,6 @@
 		7B8810392BFCA30000D82F0E /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810382BFCA30000D82F0E /* LaunchScreen.swift */; };
 		7B88103C2BFCA31400D82F0E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88103B2BFCA31400D82F0E /* HomeScreen.swift */; };
 		7B88103F2BFCA4F500D82F0E /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88103E2BFCA4F500D82F0E /* APIUrl.swift */; };
-		7B8810422BFCA6EE00D82F0E /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8810412BFCA6EE00D82F0E /* Starscream */; };
-		7B8810452BFCA6FD00D82F0E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8810442BFCA6FD00D82F0E /* Alamofire */; };
 		7B88104A2BFCB14E00D82F0E /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810492BFCB14E00D82F0E /* TargetType.swift */; };
 		7B88104C2BFCB28500D82F0E /* UpbitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88104B2BFCB28500D82F0E /* UpbitRouter.swift */; };
 		7B88104E2BFCBB7E00D82F0E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88104D2BFCBB7E00D82F0E /* HTTPMethod.swift */; };
@@ -50,8 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B8810422BFCA6EE00D82F0E /* Starscream in Frameworks */,
-				7B8810452BFCA6FD00D82F0E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +197,6 @@
 			);
 			name = CryptoCoinMarket;
 			packageProductDependencies = (
-				7B8810412BFCA6EE00D82F0E /* Starscream */,
-				7B8810442BFCA6FD00D82F0E /* Alamofire */,
 			);
 			productName = CryptoCoinMarket;
 			productReference = 7BFDE8DC2BF4E39B00F46241 /* CryptoCoinMarket.app */;
@@ -233,8 +227,6 @@
 			);
 			mainGroup = 7BFDE8D32BF4E39B00F46241;
 			packageReferences = (
-				7B8810402BFCA6ED00D82F0E /* XCRemoteSwiftPackageReference "Starscream" */,
-				7B8810432BFCA6FD00D82F0E /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 7BFDE8DD2BF4E39B00F46241 /* Products */;
 			projectDirPath = "";
@@ -482,38 +474,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7B8810402BFCA6ED00D82F0E /* XCRemoteSwiftPackageReference "Starscream" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/daltoniam/Starscream.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.8;
-			};
-		};
-		7B8810432BFCA6FD00D82F0E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7B8810412BFCA6EE00D82F0E /* Starscream */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B8810402BFCA6ED00D82F0E /* XCRemoteSwiftPackageReference "Starscream" */;
-			productName = Starscream;
-		};
-		7B8810442BFCA6FD00D82F0E /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B8810432BFCA6FD00D82F0E /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7BFDE8D42BF4E39B00F46241 /* Project object */;
 }
