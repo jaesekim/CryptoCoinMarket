@@ -7,10 +7,7 @@
 
 import Foundation
 
-enum APIError: Error {
-    case urlRequestError
-    case inValidResponse
-}
+
 
 class NetworkManager {
     
@@ -28,7 +25,7 @@ class NetworkManager {
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
             
             guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-                throw APIError.inValidResponse
+                throw NetworkError.inValidResponse
             }
             
             let decoder = JSONDecoder()
@@ -36,7 +33,7 @@ class NetworkManager {
             
             return result
         } catch {
-            throw APIError.urlRequestError
+            throw NetworkError.urlRequestError
         }
     }
 }

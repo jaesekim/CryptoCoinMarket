@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B84E16C2BFF1C5400693E5C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84E16B2BFF1C5400693E5C /* NetworkError.swift */; };
 		7B8810332BFCA10900D82F0E /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810322BFCA10900D82F0E /* WebSocketManager.swift */; };
 		7B8810352BFCA27E00D82F0E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810342BFCA27E00D82F0E /* NetworkManager.swift */; };
 		7B8810392BFCA30000D82F0E /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8810382BFCA30000D82F0E /* LaunchScreen.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B84E16B2BFF1C5400693E5C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		7B8810322BFCA10900D82F0E /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 		7B8810342BFCA27E00D82F0E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7B8810382BFCA30000D82F0E /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				7B8810342BFCA27E00D82F0E /* NetworkManager.swift */,
 				7B88104D2BFCBB7E00D82F0E /* HTTPMethod.swift */,
+				7B84E16B2BFF1C5400693E5C /* NetworkError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				7B88103F2BFCA4F500D82F0E /* APIUrl.swift in Sources */,
 				7B8810552BFCC4A100D82F0E /* ViewModelType.swift in Sources */,
 				7B88104E2BFCBB7E00D82F0E /* HTTPMethod.swift in Sources */,
+				7B84E16C2BFF1C5400693E5C /* NetworkError.swift in Sources */,
 				7BFDE8E02BF4E39B00F46241 /* CryptoCoinMarketApp.swift in Sources */,
 				7B8810532BFCC0A800D82F0E /* MarketCodeModel.swift in Sources */,
 			);
